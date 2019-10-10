@@ -1,5 +1,7 @@
 .container{
-    max-width: 680px;
+    max-width: 670px;
+    background-color: beige;
+    padding-bottom: 10px;
 }
 .controls{
     display: flex;
@@ -19,3 +21,6 @@
     padding: 10px;
     margin: 10px 20px;
 } 
+body{
+    background-color: darkgrey;
+}

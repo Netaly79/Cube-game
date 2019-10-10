@@ -6,6 +6,8 @@ let hits=0;
 
 let $startButton=$('#start');
 let $stopButton=$('#stop');
+let $modalButton=$('#modal');
+let $closeButton=$('#close');
 let $clickArea=$("#canvas");
 let score=document.getElementById("score");
 
@@ -24,6 +26,15 @@ $stopButton.on("click", function (){
     cancelAnimationFrame(animation);
     clearTimeout(crR);
     clear();
+});
+
+$modalButton.on("click", function (){
+  $('#modal').modal('show');
+});
+$closeButton.on("click", function(){
+  $('#modal').modal('hide');
+  let modal=document.getElementById("modal");
+  modal.style.display="block";
 });
 
 $clickArea.on("click", function (event){
