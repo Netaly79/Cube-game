@@ -24,3 +24,19 @@
 body{
     background-color: darkgrey;
 }
+span{
+    padding-left: 20px;
+    font-weight: 800;
+}
+h1{
+    text-align: center;
+}
+.result{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+}
+#red{
+    color:red;
+}

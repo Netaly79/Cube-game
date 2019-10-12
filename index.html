@@ -19,19 +19,21 @@
         </div>
         <div class="score-box">
           <span> Score: <span id="score"> 0 </span> </span>
+          <span>Lose: <span id="lose"> 0 </span> </span>
           <button type="button" id="modal" class="btn btn-primary my-btn" data-toggle="modal" data-target="#exampleModalCenter">
               Game rules
-            </button>
-            
+            </button> 
         </div>
       </div>
       <canvas width="640" height="480" id="canvas"></canvas>
+      <h1 id="result" class="result"></h1>
       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-body">
-                <h1>Left-click on colored squares and earn points.
-                    To start the game, click "Start".</h1>
+                <h1>Left-click on colored squares and earn points.<br>
+                    If you catch <span id="red">30 </span>squares, you win. <br>If <span id="red">10 </span> squares touch the lower border, you lose.<br>
+                    To start the game, click <span id="red"> "Start" </span>.</h1>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" id="close" data-dismiss="modal">Close</button>
