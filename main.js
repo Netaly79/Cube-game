@@ -1,5 +1,5 @@
 // тут может находится ваш код
-let colors=['red','orange','white','green',"aqua","blue", "violet"];
+let colors=['red','orange','navy','green',"aqua","blue", "violet"];
 let el, animation, ctx, crR;
 let elements=[];
 let hits=0;
